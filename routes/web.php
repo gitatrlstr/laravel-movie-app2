@@ -21,5 +21,7 @@ Route::get('/reviews', function () {
     return view('reviews.index');
 });
 
+Route::get('/movies/create', [MovieController::class, 'create']);
+
 
 
