@@ -17,9 +17,22 @@ class MovieController extends Controller
     }
 
     public function create()
-    {
-        $genres = Genre::all();
-        $genres = $genre->getAllGenres();
-        return view('movies.create', compact('genres'));
-    }
+{
+    $genres = Genre::all();
+    return view('movies.create', compact('genres'));
+}
+
+public function store(Request $request)
+{
+    $validatedData = $request->validate([
+        'title' => 'required',
+        'genre_id' => 'required',
+        'poster' => 'required',
+        'synopsis' => 'required',
+    ]);
+
+    Movie::create($validatedData);
+
+    return redirect('/movies')->with('success', 'Movie added successfully!');
+}
 }
