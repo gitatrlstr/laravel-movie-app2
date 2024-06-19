@@ -7,14 +7,14 @@
                     <div class="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
                         <!-- Breadcrumb Start -->
                         <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                            <h2 class="text-title-md2 font-bold text-black dark:text-white">
+                            <h2 class="text-title-md2 font-bold text-black">
                                 Tables Genre
                             </h2>
 
                             <nav>
                                 <a
                                     href="/movies/create"
-                                    class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                    class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                                 >
                                     Create
                                 </a>
@@ -25,8 +25,8 @@
                         <!-- ====== Table Section Start -->
                         <div class="flex flex-col gap-10">
                             <!-- ====== Table Two Start -->
-                            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                            <div class="rounded-sm border border-stroke bg-white shadow-default">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <p class="font-medium"> Id</p>
                                     </div>
@@ -39,10 +39,10 @@
                                 
                                 </div>
 
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 1
                                             </p>
                                         </div>
@@ -51,12 +51,12 @@
                                             <div class="w-12 rounded-md m-2">
                                                 <img src="src/images/movie/movie-01.jpg" alt="Product" />
                                             </div>
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Jojo Bizzare Adventure
                                         </p>
                                     </div>
                                     <div class="col-span-3 flex items-center">
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             JoJo's Bizarre Adventure is a shonen series that begins with very common action tropes as its driving force. The scope of JoJo expands in fulfilling ways, but it's consistently entertaining as the series' genre shifts in a natural way that allows the storytelling to evolve and not grow stagnant.
                                         </p>
                                     </div>
@@ -67,10 +67,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 2
                                             </p>
                                         </div>
@@ -79,12 +79,12 @@
                                             <div class="w-12 rounded-md m-2">
                                                 <img src="src/images/movie/movie-02.jpg" alt="Product" />
                                             </div>
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 Noragami
                                             </p>
                                     </div>
                                     <div class="col-span-3 flex items-center">
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Noragami is a very funny anime where gods, people that transform in weapons come to life, and at the same time it haves a very dark humor where they fight enemies, rivals, etc.
                                         </p>
                                     </div>
@@ -95,10 +95,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 3
                                             </p>
                                         </div>
@@ -107,12 +107,12 @@
                                             <div class="w-12 rounded-md m-2">
                                                 <img src="src/images/movie/movie-03.jpg" alt="Product" />
                                             </div>
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Windbreaker
                                         </p>
                                     </div>
                                     <div class="col-span-3 flex items-center">
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Plot. From an early age, Haruka Sakura was made an outcast due to his unconventional appearance and lack of social skills. However, the rough treatment turned him into a proficient fighter, which is now the only thing he prides himself on.
                                         </p>
                                     </div>
@@ -123,10 +123,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 4
                                             </p>
                                         </div>
@@ -135,12 +135,12 @@
                                         <div class="w-12 rounded-md m-2">
                                             <img src="src/images/movie/movie-05.jpg" alt="Product" />
                                         </div>
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Konosuba
                                         </p>
                                     </div>
                                     <div class="col-span-3 flex items-center">
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Premise. Following an untimely and embarrassing death, Kazuma Satou, a Japanese teenage shut-in NEET, meets a goddess named Aqua, who offers to reincarnate him in a parallel world with MMORPG elements, where he can go on adventures and battle monsters.
                                         </p>
                                     </div>
@@ -151,10 +151,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                                     <div class="col-span-2 flex items-center">
                                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <p class="text-sm font-medium text-black dark:text-white">
+                                            <p class="text-sm font-medium text-black">
                                                 5
                                             </p>
                                         </div>
@@ -163,12 +163,12 @@
                                             <div class="w-12 rounded-md m-2">
                                                 <img src="src/images/movie/movie-04.jpg" alt="Product" />
                                             </div>
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             Spy X Family
                                         </p>
                                     </div>
                                     <div class="col-span-3 flex items-center">
-                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        <p class="text-sm font-medium text-black">
                                             A spy on an undercover mission gets married and adopts a child as part of his cover. His wife and daughter have secrets of their own, and all three must strive to keep together.
                                         </p>
                                     </div>
